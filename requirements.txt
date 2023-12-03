@@ -1,3 +1,2 @@
-DES
 streamlit
-pycryptodome
+Crypto
