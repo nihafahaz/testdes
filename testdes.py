@@ -1,5 +1,6 @@
 import streamlit as st
-import DES
+import des
+from Crypto.Cipher import DES
 
 def pad_message(message):
     while len(message) % 8 != 0:
